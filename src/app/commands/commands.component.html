@@ -1,0 +1,8 @@
+<h2 [textContent]="title">{{ title }} </h2>
+<textarea rows=10 cols=150 [(ngModel)]="commandInput" (keyup)= "onKeyUp()"></textarea>
+<table>
+    <tr> <h2>No of Characters typed: {{ charCount }}</h2></tr>
+    <tr> <h2> {{ wordsCount }}</h2></tr>
+    <tr> <h2> {{ sentencesCount }}</h2></tr>
+    <hr>
+</table>

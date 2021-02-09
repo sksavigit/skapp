@@ -1,3 +1,4 @@
+import { CommandsComponent } from './commands/commands.component';
 import { Component } from '@angular/core';
 
 @Component({
